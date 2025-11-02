@@ -1,14 +1,15 @@
-# GOOGLE CALENDER CLONE
+GOOGLE CALENDER CLONE
 
-A calender webapp where user can browse through dates and add,update and delete event for the selected date
+A calendar web app where users can browse through dates and add, update, and delete events for the selected date. This project uses the MERN stack (MongoDB, Express, React, Node.js).
 
----
+TECHNOLOGY USED
 
-## TECHNOLOGY USED
 REACT, NODE.JS, MONGODB
 
+Architecture
 
-## ARCHITECTURE / FILE STRUCTURE
+To ensure the structure is preserved on commit, the file tree is enclosed in a code block:
+
 CALENDER_APP_SAMARJEET_E22CSEU1152/
 ├── backend/
 │   ├── src/
@@ -56,39 +57,58 @@ CALENDER_APP_SAMARJEET_E22CSEU1152/
 └── README.md
 
 
+Setup Instructions
 
-## Setup Instructions
+1. Clone the Repository
 
-### 1. Clone the Repository
-git clone <https://github.com/samarjeet-88/CALENDER_APP_SAMARJEET_E22CSEU1152.git>
+git clone https://github.com/samarjeet-88/CALENDER_APP_SAMARJEET_E22CSEU1152.git
 
-### 2. GO TO BACKEND
+
+2. Configure and Start the Backend
+
+Navigate to the backend directory:
+
 cd backend
+
+
+Install dependencies:
+
 npm install
-add .env file with variables as 
+
+
+Add a .env file with the following variables:
+
 PORT=8000
 MONGODB_URL=your_mongodb_connection_string
 
-### 3.START THE BACKEND
+
+Start the backend server:
+
 npm run dev
 
-### 4. GO TO FRONTEND
+
+3. Configure and Start the Frontend
+
+Navigate back to the root directory and into the frontend:
+
 cd ..
 cd frontend
+
+
+Install dependencies:
+
 npm install
 
-### 5. START THE BACKEND
+
+Start the frontend application:
+
 npm run dev
 
 
-## Future Enhancements
-- **Add Time to Events**: Currently, events are only stored by date. Adding time will allow users to schedule events more precisely.  
-- **Add a Navbar**: Implement a navigation bar for easier navigation between pages, quick access to calendar views, and improved user experience.  
-- **User Authentication (Sign In / Sign Up)**: Implement JWT-based authentication so that users can create accounts, log in securely, and manage their personal events.
+Future Enhancements
 
-- **Add Time to Events**: Currently, events are only stored by date. Adding time will allow users to schedule events more precisely.  
-- **Add a Navbar**: Implement a navigation bar for easier navigation between pages, quick access to calendar views, and improved user experience.  
-- **User Authentication (Sign In / Sign Up)**: Implement JWT-based authentication so that users can create accounts, log in securely, and manage their personal events.  
+Add Time to Events: Currently, events are only stored by date. Adding time will allow users to schedule events more precisely.
 
+Add a Navbar: Implement a navigation bar for easier navigation between pages, quick access to calendar views, and improved user experience.
 
-
+User Authentication (Sign In / Sign Up): Implement JWT-based authentication so that users can create accounts, log in securely, and manage their personal events.
