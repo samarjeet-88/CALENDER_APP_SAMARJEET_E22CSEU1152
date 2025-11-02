@@ -63,48 +63,48 @@ Setup Instructions
 
 1. Clone the Repository
 
-git clone https://github.com/samarjeet-88/CALENDER_APP_SAMARJEET_E22CSEU1152.git
+```git clone https://github.com/samarjeet-88/CALENDER_APP_SAMARJEET_E22CSEU1152.git```
 
 
 2. Configure and Start the Backend
 
 Navigate to the backend directory:
 
-cd backend
+```cd backend```
 
 
 Install dependencies:
 
-npm install
+```npm install```
 
 
 Add a .env file with the following variables:
 
-PORT=8000
-MONGODB_URL=your_mongodb_connection_string
+```PORT=8000
+MONGODB_URL=your_mongodb_connection_string```
 
 
 Start the backend server:
 
-npm run dev
+```npm run dev```
 
 
 3. Configure and Start the Frontend
 
 Navigate back to the root directory and into the frontend:
 
-cd ..
-cd frontend
+```cd ..
+cd frontend```
 
 
 Install dependencies:
 
-npm install
+```npm install```
 
 
 Start the frontend application:
 
-npm run dev
+```npm run dev```
 
 
 Future Enhancements
