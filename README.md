@@ -9,52 +9,51 @@ REACT, NODE.JS, MONGODB
 
 
 ## ARCHITECTURE / FILE STRUCTURE
-
-backend
-.
-├── src/
-│   ├── controller/
-│   │   └── event.controller.js
-│   │
-│   ├── db/
+CALENDER_APP_SAMARJEET_E22CSEU1152/
+├── backend/
+│   ├── src/
+│   │   ├── controller/
+│   │   │   └── event.controller.js
+│   │   │
+│   │   ├── db/
+│   │   │   └── index.js
+│   │   │
+│   │   ├── models/
+│   │   │   ├── dayEvent.model.js
+│   │   │   └── event.model.js
+│   │   │
+│   │   ├── routes/
+│   │   │   └── event.routes.js
+│   │   │
+│   │   ├── app.js
+│   │   ├── constants.js
 │   │   └── index.js
 │   │
-│   ├── models/
-│   │   ├── dayEvent.model.js
-│   │   └── event.model.js
+│   ├── .env
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── CalenderComponent/
+│   │   │   │   ├── Calender.jsx
+│   │   │   │   └── CalenderDate.jsx
+│   │   │   │
+│   │   │   ├── EventComponent/
+│   │   │   │   ├── Event.jsx
+│   │   │   │   └── Eventpage.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   └── EventContext.jsx
+│   │   │
+│   │   ├── App.css
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
 │   │
-│   ├── routes/
-│   │   └── event.routes.js
-│   │
-│   ├── app.js
-│   ├── constants.js
-│   └── index.js
-├── .env
-└── package.json
-
-
-### Frontend
-
-
-.
-├── src/
-│   ├── components/
-│   │     ├── CalenderComponent/
-│   │     │    ├── Calender.jsx
-│   │     │    └── CalenderDate.jsx
-│   │     ├── CalenderComponent/
-│   │     │    ├── Event.jsx
-│   │     │    └── Eventpage.jsx
-│   │     │                    
-│   ├── context/
-│   │   ├── EventContext.jsx 
-│   │  
-│   └── App.css
-│   └── App.jsx
-│   └── index.css
-│   └── main.jsx
-├── package.json
-
+│   └── package.json
+│
+└── README.md
 
 
 
