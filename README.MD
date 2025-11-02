@@ -80,8 +80,10 @@ Install dependencies:
 
 Add a .env file with the following variables:
 
-```PORT=8000
-MONGODB_URL=your_mongodb_connection_string```
+```
+PORT=8000
+MONGODB_URL=your_mongodb_connection_string
+```
 
 
 Start the backend server:
