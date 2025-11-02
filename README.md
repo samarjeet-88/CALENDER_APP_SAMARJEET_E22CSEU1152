@@ -10,29 +10,27 @@ REACT, NODE.JS, MONGODB
 
 ## ARCHITECTURE / FILE STRUCTURE
 
-### Backend
-
-
+backend
 .
 ├── src/
 │   ├── controller/
-│   │     ├── event.controller.js
-│   │                       
+│   │   └── event.controller.js
+│   │
 │   ├── db/
-│   │   ├── index.js
-│   │   
+│   │   └── index.js
+│   │
 │   ├── models/
 │   │   ├── dayEvent.model.js
 │   │   └── event.model.js
-│   │  
+│   │
 │   ├── routes/
 │   │   └── event.routes.js
-│   │  
-│   └── app.js
-│   └── constants.js
+│   │
+│   ├── app.js
+│   ├── constants.js
 │   └── index.js
 ├── .env
-├── package.json
+└── package.json
 
 
 ### Frontend
