@@ -8,8 +8,11 @@ A calender webapp where user can browse through dates and add,update and delete 
 REACT, NODE.JS, MONGODB
 
 
-## ARCHITECTURE/FILE STRUCTURE
-backend
+## ARCHITECTURE / FILE STRUCTURE
+
+### Backend
+
+
 .
 ├── src/
 │   ├── controller/
@@ -31,7 +34,10 @@ backend
 ├── .env
 ├── package.json
 
-frontend
+
+### Frontend
+
+
 .
 ├── src/
 │   ├── components/
