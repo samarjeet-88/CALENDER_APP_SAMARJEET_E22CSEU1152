@@ -95,18 +95,24 @@ Start the backend server:
 
 Navigate back to the root directory and into the frontend:
 
-```cd ..
-cd frontend```
+```
+cd ..
+cd frontend
+```
 
 
 Install dependencies:
 
-```npm install```
+```
+npm install
+```
 
 
 Start the frontend application:
 
-```npm run dev```
+```
+npm run dev
+```
 
 
 Future Enhancements
