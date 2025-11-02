@@ -116,9 +116,10 @@ npm run dev
 
 
 Future Enhancements
-
+```
 Add Time to Events: Currently, events are only stored by date. Adding time will allow users to schedule events more precisely.
 
 Add a Navbar: Implement a navigation bar for easier navigation between pages, quick access to calendar views, and improved user experience.
 
 User Authentication (Sign In / Sign Up): Implement JWT-based authentication so that users can create accounts, log in securely, and manage their personal events.
+```
