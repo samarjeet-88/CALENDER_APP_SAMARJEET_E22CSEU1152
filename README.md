@@ -10,7 +10,7 @@ Architecture
 
 To ensure the structure is preserved on commit, the file tree is enclosed in a code block:
 
-CALENDER_APP_SAMARJEET_E22CSEU1152/
+```CALENDER_APP_SAMARJEET_E22CSEU1152/
 ├── backend/
 │   ├── src/
 │   │   ├── controller/
@@ -54,7 +54,7 @@ CALENDER_APP_SAMARJEET_E22CSEU1152/
 │   │
 │   └── package.json
 │
-└── README.md
+└── README.md```
 
 
 Setup Instructions
